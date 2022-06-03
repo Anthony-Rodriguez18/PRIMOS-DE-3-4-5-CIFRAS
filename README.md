@@ -11,7 +11,11 @@ MILLER:Utilizando el compuesto halla la fidelidad si el número es primo o no (t
 
 FINALIZANDO:
 "for n in range(100,1000)" --> Es un bucle que recorre los números de 3 cifras
+
 "for n in range(1000,10000)" --> Es un bucle que recorre los números de 4 cifras
+
 "for n in range(10000,100000)" --> Es un bucle que recorre los números de 5 cifras
+
 Luego con "if (Miller(b, s))" se comprueba que si es primo con un seguridad dependiendo de S (En nuestro caso utilizamos 5 porque el tiempo empleado es más eficiente que utilizando uno mayor, además que si utilizamos uno menor el test de miller no seria tan efectivo), teniendo encuenta que debemos mostrar todos los números dentro del rango. Posteriormente si da true el test ese valor lo imprime.
+
 Este proceso se repite para 4 y 5 bits.
